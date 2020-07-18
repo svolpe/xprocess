@@ -7,7 +7,7 @@ from xprocess import ProcessStarter
 
 server_name = 'echo-server'
 hostname, port = 'localhost', 6777
-
+#test
 
 @pytest.fixture(autouse=True)
 def start_server(xprocess):
